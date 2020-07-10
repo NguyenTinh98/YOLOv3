@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE HTML>
+​
+<html>
+    <head>
+	
+        <title>1612703_YOLOv3 </title>
+    </head>
+    <body>
+​	<body background= "/static/home.jpg" >
+
+        <!-- Header -->
+            <header id="header">
+                <div class="inner">
+                    <nav id="nav">
+                        <a href="/">Home</a>
+                        <a href="/more">More</a>
+                    </nav>
+                </div>
+            </header>
+​
+        <!-- Banner -->
+            <section id="banner">
+			<center>
+                    <h1 style="font-size: 50px; color:white"> Welcome to YOLOv3</h1>
+                    <h1 style="color: wheat">Try it yourself</h1>
+			</center>
+				
+            </section>
+            
+
+
+    {% if variable != null %}
+    <center>
+            <img src = {{ variable[0] }} style="max-width: 45vw"/>
+            <img src = {{ variable[1] }} style="max-width: 45vw"/>        
+    </center>  
+    {% endif %} 
+    
+    </body>
+</html>
