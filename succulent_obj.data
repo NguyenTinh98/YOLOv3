@@ -1,0 +1,5 @@
+classes= 1 
+train  = succulent-train.txt  
+valid  = succulent-test.txt  
+names = succulent.names  
+backup = backup/
